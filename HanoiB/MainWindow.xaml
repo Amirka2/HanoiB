@@ -1,0 +1,22 @@
+﻿<Window x:Class="HanoiB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HanoiB"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="Grid1">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="433*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button Name="Button1" Content="Начать" HorizontalAlignment="Center" Margin="0,18,0,0" VerticalAlignment="Top" Height="25" Width="124" Click="ButtonClick"/>
+        <Canvas Grid.RowSpan="2">
+            <TextBlock Name="TextBlock1" Background="Gray" RenderTransformOrigin="1.416,4.178" Canvas.Left="10" Canvas.Top="49" Height="375" Width="259"></TextBlock>
+            <Canvas Name="Canvas1" Height="385" Width="526" Canvas.Left="274" Canvas.Top="49">
+
+            </Canvas>
+        </Canvas>
+    </Grid>
+</Window>

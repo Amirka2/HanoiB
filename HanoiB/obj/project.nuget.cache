@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cP+2/02WrbZucOd6ta7tDmPcZnK71cYKQpSEiAzDjHeUvN5ayLDiuxtaEUnk/p95bGSloyAGQ/uPz/iTSxMI3A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amirka\\source\\repos\\HanoiB\\HanoiB\\HanoiB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amirka\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
